@@ -1,6 +1,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Node.js HTTP Module
 
 // The 'http' module allow Node.js to transfer data over the Hyper Text Tranfer  Protocol (HTTP).
@@ -96,6 +97,8 @@ server.listen(PORT,()=>{
 
 
 =======
+=======
+>>>>>>> 8c0caf8f4590259c69efb56c13b3948d412b4ac4
 import express from "express";
 import { json } from "node:stream/consumers";
 // console.log(express);
@@ -126,5 +129,9 @@ app.post("/login",(req,res)=>{
 
 app.listen(PORT,()=>{
     console.log("Server is started now ")
+<<<<<<< HEAD
+})
+>>>>>>> 8c0caf8f4590259c69efb56c13b3948d412b4ac4
+=======
 })
 >>>>>>> 8c0caf8f4590259c69efb56c13b3948d412b4ac4
