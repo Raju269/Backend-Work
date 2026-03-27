@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Poppins',sans-serif;
+            line-height: 1.7;
+            color: #222;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: bisque;;
+            padding: 1rem 5%;
+            position: sticky;
+            top:0;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: white;
+        }
+        .nav-list{
+            display: flex;
+            list-style-type: none;
+            gap: 2rem
+            ;
+
+        }
+        .nav-list a{
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s;
+            
+        }
+        .nav-list a:hover{
+            color: gold;
+        }
+        .search-box{
+            display: flex;
+            gap: 0.5rem;
+        }
+        .search-box input{
+            padding: 0.5rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .search-box button{
+            padding: 0.5rem 1rem;
+            background-color: lightblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero{
+            background:linear-gradient(145deg,rgb(130, 68, 196),violet 100%);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .hero-content h1{
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero-content p{
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        .cta-btn{
+                background: white;
+    color: #667eea;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+        }
+        .cta-btn:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    padding: 5rem 5%;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-list {
+        gap: 1rem;
+    }
+
+    .search-box input {
+        width: 150px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .about {
+        padding: 3rem 2%;
+    }
+}
+
+    </style>
+    <title>Raju websites</title>
+  </head>
+  <body>
+    <!-- header part  -->
+    <header>
+        <!-- navbar  -->
+      <nav class="navbar">
+        <div class="Logo">Raju kumar  </div>
+        <!-- list item  -->
+            <ul class="nav-list">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Bussiness">BussinessModel</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button>Search information </button>
+          </div>
+      </nav>
+    </header>
+
+    <!-- section part  -->
+     <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcom back Raju bhaiya ji </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestias. Temporibus beatae quos soluta quas rem at ipsa nesciunt, quia excepturi voluptatem! Dolore, quae deleniti praesentium voluptate iste corrupti necessitatibus?
+
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum pariatur neque repudiandae aliquid quasi, nobis mollitia ratione at facilis alias a reiciendis beatae, dolore quo est consequatur nesciunt rem obcaecati.</p>
+            <button class="cta-btn">Get Started</button>
+
+        </div>
+     </section>
+
+     <!-- 2nd section  -->
+      <section id="about" class="about">
+        <h2>About us  </h2>
+      </section>
+      
+      <!-- footer section is start now -->
+       <footer>
+        <p>&copy; 2026 My Homepage. All rights reserved. </p>
+       </footer>
+  </body>
+</html>
