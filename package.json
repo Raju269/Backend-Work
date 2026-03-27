@@ -1,24 +1,26 @@
 {
-  "name": "backend-projects",
+  "name": "backend-work",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learn backend start",
+  "homepage": "https://github.com/Raju269/Backend-Work#readme",
+  "bugs": {
+    "url": "https://github.com/Raju269/Backend-Work/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raju269/Backend-Work.git"
+  },
+  "license": "ISC",
+  "author": "Rajukumar",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "express": " nodemon basic-express.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon http.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
     "dotenv": "^17.3.1",
-    "ejs": "^5.0.1",
     "express": "^5.2.1",
     "http": "^0.0.1-security"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
   }
 }
